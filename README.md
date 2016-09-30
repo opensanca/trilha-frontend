@@ -1,5 +1,7 @@
 # Trilha Frontend | Opensanca Developer
 
+![eflyer Opensanca](http://photos4.meetupstatic.com/photos/event/a/e/d/d/600_454304765.jpeg)
+
 ### Introdução
 Esta trilha visa oferecer ao participante conhecimentos que irão auxiliar o participante no dia-a-dia com o desafio do Mundo Front-end, entre sua vasta gama de tecnologias, bibliotecas, ferramentas entre outros que compõe o mundo deste profissional. 
 Serão abordados conceitos de UX/UI, HTML, Semântica, CSS, Pré-Processadores, JavaScript Tools e Perfomance. 
