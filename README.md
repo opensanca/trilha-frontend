@@ -55,6 +55,6 @@ Videos
 Livros
 - Não me faça pensar - Steve Krug
 - Simplificando coisas que parecem complicadas - Steve Krug
-
+- http://www.designculture.com.br/10-livros-que-o-designer-precisa-ler-em-2016/
 License:
 MIT | Creative Commons Attribution-NonCommercial-ShareAlike 4.0 [Opensanca 2016
