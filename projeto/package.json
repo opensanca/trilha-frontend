@@ -1,0 +1,32 @@
+{
+  "name": "OpenSanca",
+  "version": "1.0.0",
+  "description": "Site criado na trilha de frontend do OpenSanca",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opensanca/trilha-frontend/projeto"
+  },
+  "keywords": [
+    "OpenSanca",
+    "Frontend"
+  ],
+  "author": "Diego Kaimoti",
+  "license": "ISC",
+  "homepage": "https://github.com/opensanca/trilha-frontend/projeto#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-minify": "0.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "gulp-webserver": "^0.9.1"
+  }
+}

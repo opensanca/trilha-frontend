@@ -5,6 +5,10 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+html, body {
+	height:100%;
+}
+
 .container{
 	width: 960px;
 	margin: 0 auto;
@@ -13,19 +17,230 @@
 
 .header {
 	background-color: #303030;
-	width: 100%;
 	height: 60px;
+	line-height: 60px; 
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
 }
 
-	.logo {
+	.header .logo {
 		max-width: 60px;
+		vertical-align: middle;
 	}
 
-	.header .menu{
+	.header .menu {
+		float: right;
+		cursor: default;
+	}
 
+	.header .menu ul li{
+		display: inline-block;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+	.header .menu ul li a{
+		color: #FFF;
+		text-decoration: none;
+		display: block;
+		padding: 0 10px;
+	}
+
+	.header .menu ul li a:hover{
+		background-color: #1abc9c;
+	}
+
+.section {
+	padding-top:60px;
+	width: 100%;
+	min-height: 100%;
+	text-align: center;
+	color: #fff;
+}
+
+article {
+	display: block;
+	width: 100%;
+	min-height: 300px;
+}
+
+.home {
+	background-image: url('../images/vem-pro-front-background.jpg');
+	background-repeat: no-repeat;
+	background-position: 40% 10%;
+}
+
+	.title-home {
+		font-size: 5.6em;
+		color: #fff;
+		text-shadow: 0 8px 12px #000;
+		text-transform: uppercase;
+		padding-top: 15%;
+	}
+
+	.subtitle-home {
+		font-size: 3em;
+		color: #1abc9c;
+		text-align: right;
+		margin-right: 120px;
+	}
+
+.instructor {
+	background-color: #252525;
+}
+	.instructor .image {
+		box-shadow: 3px 5px 0 #1abc9c;
+		border-radius: 50%;
+	}
+
+	.instructor .contacts li{
+		display: inline-block;
+	}
+
+	.instructor .contacts-images {
+		background-image: url('../images/images-sprites.png');
+		background-repeat: no-repeat;
+		width: 70px;
+		height: 70px;
+		display: block;
+	}
+
+	.instructor .facebook{
+		background-position: -31px -310px;
+	} 
+
+	.instructor .linkedin {
+		background-position: -113px -310px;
+	}
+
+	.instructor .mail {
+		background-position: -198px -310px;
+	}
+
+.day1 {
+	background-color: #1abc9c;
+}
+
+	.day1 .subject-container {
+	  	width: 100%;
+	    display: -webkit-flex;
+	    display: flex;
+	}
+
+	.day1 .subject-container .subject-item {
+		flex: 1 1 auto;
+		margin: 0 5px;
+	}
+
+	.day1 .subject-container .subject-item .image {
+		background-image: url('../images/images-sprites.png');
+		background-repeat: no-repeat;
+		width: 245px;
+		height: 245px;
+		display: block;
+	}
+	.day1 .subject-container .subject-item .column1 {
+		background-position: -281px -28px;
+	}
+	.day1 .subject-container .subject-item .column2 {
+		background-position: -281px -28px;
+	}
+	.day1 .subject-container .subject-item .column3 {
+		background-position: -281px -28px;
 	}
 
 
+.day2 {
+	background-color: #e55126;
+}
+	.day2 .image {
+		float: left;
+		margin-left: 150px;
+		margin-right: 30px;
+		display: block;
+		width: 245px;
+		height: 245px;
+		background: url('../images/images-sprites.png');
+		background-repeat: no-repeat;
+		background-position: -1378px -27px;
+	}
 
+	.day2 .subjects {
+		text-align: left;
+		font-size: 24px;
+	}
 
+.day3 {
+	background-color: #0c73b8;
+	text-align: center;
+}
+	.day3 .image {
+		float: left;
+		margin-left: 150px;
+		margin-right: 30px;
+		display: block;
+		width: 245px;
+		height: 245px;
+		background: url('../images/images-sprites.png');
+		background-repeat: no-repeat;
+		background-position: -1103px -27px;
+	}
+
+	.day3 .subjects {
+		text-align: left;
+		font-size: 24px;
+	}
+
+.day4 {
+	background-color: #e5a228;
+	text-align: center;
+	color: #000000;
+}
+	.day4 .image {
+		float: left;
+		margin-left: 150px;
+		margin-right: 30px;
+		display: block;
+		width: 245px;
+		height: 245px;
+		background: url('../images/images-sprites.png');
+		background-repeat: no-repeat;
+		background-position: -1649px -27px;
+	}
+
+	.day4 .subjects {
+		text-align: left;
+		font-size: 24px;
+	}
+
+.participants {
+	color: #1abc9c;
+}
+
+	.participants .persons li{
+		display: inline-block;
+		margin: 0 5px;
+	}	
+
+	.participants .persons li img{
+		border-width: 1px;
+		border-style: solid;
+		border-color: #1abc9c;
+	}
+
+	.participants .persons li figcaption{
+		color: #333333;
+	}
+
+.footer {
+	background-color: #303030;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	line-height: 60px;
+	text-transform: uppercase;
+}
 
