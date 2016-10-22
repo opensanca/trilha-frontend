@@ -18,13 +18,13 @@
 			
 			<nav class="menu">
 				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Instrutor</a></li>
-					<li><a href="">Dia 1</a></li>
-					<li><a href="">Dia 2</a></li>
-					<li><a href="">Dia 3</a></li>
-					<li><a href="">Dia 4</a></li>
-					<li><a href="">Eu participei!</a></li>
+					<li><a href="#/home">Home</a></li>
+					<li><a href="#/instructor">Instrutor</a></li>
+					<li><a href="#/day1">Dia 1</a></li>
+					<li><a href="#/day2">Dia 2</a></li>
+					<li><a href="#/day3">Dia 3</a></li>
+					<li><a href="#/day4">Dia 4</a></li>
+					<li><a href="#/participants">Eu participei!</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -42,9 +42,9 @@
 	<section class="section instructor">
 		<div class="container">
 			<header>
-				<h1>Instrutor</h1>
+				<h1 class="day-title">Instrutor</h1>
 			</header>
-			<article>
+			<article class="article">
 				<img class="image" src="images/instructor.png" alt="Diego Kaimoti">
 				<h2>Diego Kaimoti</h2>
 				<p>8 anos de experiência em desenvolvimento frontend e UI design.<br>
@@ -55,19 +55,19 @@
 			<footer>
 				<ul class="contacts">
 					<li>
-						<a href="">
-							<span class="contacts-images facebook"></span>
+						<a href="https://www.facebook.com/diego.kaimoti">
+							<span class="image-sprites contacts-images facebook"></span>
 						</a>
 					</li>
 					<li>
-						<a href="">
-							<span class="contacts-images linkedin"></span>
+						<a href="https://br.linkedin.com/in/diego-kaimoti-58545919">
+							<span class="image-sprites contacts-images linkedin"></span>
 						</a>
 
 					</li>
 					<li>
-						<a href="">
-							<span class="contacts-images mail"></span>
+						<a href="mailto:dkaimoti@gmail.com">
+							<span class="image-sprites contacts-images mail"></span>
 						</a>
 					</li>
 				</ul>
@@ -78,13 +78,13 @@
 	<section class="section day1">
 		<div class="container">
 			<header>
-				<h1>Dia 1</h1>
+				<h1 class="day-title">Dia 1</h1>
 			</header>
 
-			<article>
+			<article class="article">
 				<div class="subject-container">
 					<div class="subject-item">
-						<span class="image column1"></span>
+						<span class="image-sprites image column1"></span>
 						<ul>
 							<li>Perfis Frontend</li>
 							<li>Mercado de trabalho</li>
@@ -92,7 +92,7 @@
 						</ul>
 					</div>
 					<div class="subject-item">
-						<span class="image column2"></span>
+						<span class="image-sprites image column2"></span>
 						<ul>
 							<li>Ferramentas</li>
 							<li>Automatizadores de tarefas</li>
@@ -100,7 +100,7 @@
 						</ul>
 					</div>
 					<div class="subject-item">
-						<span class="image column3"></span>
+						<span class="image-sprites image column3"></span>
 						<ul>
 							<li>User experience</li>
 							<li>Usabilidade</li>
@@ -117,12 +117,12 @@
 
 	<section class="section day2">
 		<div class="container">
-			<header>
+			<header class="day-title">
 				<h1>Dia 2</h1>
 			</header>
-			<article>
-				<span class="image"></span>
-				<ul class="subjects"> 
+			<article class="article">
+				<span class="image-sprites day-single-image"></span>
+				<ul class="day-subjects"> 
 					<li>- Arquitetura de um projeto frontend</li>
 					<li>- HTML </li>
 					<li>- Semântica</li>
@@ -141,12 +141,12 @@
 
 	<section class="section day3">
 		<div class="container">
-			<header>
+			<header class="day-title">
 				<h1>Dia 3</h1>
 			</header>
-			<article>
-				<span class="image"></span>
-				<ul class="subjects"> 
+			<article class="article">
+				<span class="image-sprites day-single-image"></span>
+				<ul class="day-subjects"> 
 					<li>- CSS</li>
 					<li>- Pré-processadores</li>
 					<li>- Boas práticas</li>
@@ -164,11 +164,11 @@
 	<section class="section day4">
 		<div class="container">
 			<header>
-				<h1>Dia 4</h1>
+				<h1 class="day-title">Dia 4</h1>
 			</header>
-			<article>
-				<span class="image"></span>
-				<ul class="subjects"> 
+			<article class="article">
+				<span class="image-sprites day-single-image"></span>
+				<ul class="day-subjects"> 
 					<li>- Javascript</li>
 					<li>- Frameworks </li>
 					<li>- Boas práticas</li>
@@ -187,7 +187,7 @@
 			<header>
 				<h1>Eu participei!</h1>
 			</header>
-			<article>
+			<article class="article">
 				<ul class="persons">
 					<li>
 						<figure>
@@ -227,6 +227,9 @@
 	<footer class="footer">
 		Open Sanca - 2016
 	</footer>
+
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+	<script src="js/scripts.js"></script>
 
 </body>
 </html>
