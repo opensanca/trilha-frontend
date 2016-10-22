@@ -1,261 +1,174 @@
-*{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	font-family: 'Open Sans', sans-serif;
-}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif; }
 
 html, body {
-	height:100%;
-}
+  height: 100%; }
 
-.container{
-	width: 960px;
-	margin: 0 auto;
-}
+.container {
+  width: 960px;
+  margin: 0 auto; }
+
+.image-sprites {
+  background-image: url("../images/images-sprites.png");
+  background-repeat: no-repeat; }
 
 .header {
-	background-color: #303030;
-	height: 60px;
-	line-height: 60px; 
-	position: fixed;
-	top:0;
-	left: 0;
-	right: 0;
-}
-
-	.header .logo {
-		max-width: 60px;
-		vertical-align: middle;
-	}
-
-	.header .menu {
-		float: right;
-		cursor: default;
-	}
-
-	.header .menu ul li{
-		display: inline-block;
-		margin-right: 5px;
-		margin-left: 5px;
-	}
-
-	.header .menu ul li a{
-		color: #FFF;
-		text-decoration: none;
-		display: block;
-		padding: 0 10px;
-	}
-
-	.header .menu ul li a:hover{
-		background-color: #1abc9c;
-	}
-
-	.header .menu ul li a.selected-home{
-		background-color: #1abc9c;
-	}
-
-	.header .menu ul li a.selected-instructor{
-		background-color: #252525;
-	}
-
-	.header .menu ul li a.selected-day1{
-		background-color: #1abc9c;
-	}
-	.header .menu ul li a.selected-day2{
-		background-color: #e55126;
-	}
-	.header .menu ul li a.selected-day3{
-		background-color: #0c73b8;
-	}
-	.header .menu ul li a.selected-day4{
-		background-color: #e5a228;
-	}
-	.header .menu ul li a.selected-participants{
-		background-color: white;
-		color: black;
-	}
+  background-color: #303030;
+  height: 60px;
+  line-height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; }
+  .header .logo {
+    max-width: 60px;
+    vertical-align: middle; }
+  .header .menu {
+    float: right;
+    cursor: default; }
+    .header .menu ul li {
+      display: inline-block;
+      margin-right: 5px;
+      margin-left: 5px; }
+      .header .menu ul li a {
+        color: #FFF;
+        text-decoration: none;
+        display: block;
+        padding: 0 10px; }
+        .header .menu ul li a:hover {
+          background-color: #1abc9c; }
+        .header .menu ul li a.selected-home {
+          background-color: #1abc9c; }
+        .header .menu ul li a.selected-home {
+          background-color: #1abc9c; }
+        .header .menu ul li a.selected-instructor {
+          background-color: #252525; }
+        .header .menu ul li a.selected-day1 {
+          background-color: #1abc9c; }
+        .header .menu ul li a.selected-day2 {
+          background-color: #e55126; }
+        .header .menu ul li a.selected-day3 {
+          background-color: #0c73b8; }
+        .header .menu ul li a.selected-day4 {
+          background-color: #e5a228; }
+        .header .menu ul li a.selected-participants {
+          background-color: white;
+          color: black; }
 
 .section {
-	padding-top:60px;
-	width: 100%;
-	min-height: 100%;
-	text-align: center;
-	color: #fff;
-}
-
-.article {
-	display: block;
-	width: 100%;
-	min-height: 300px;
-	padding: 20px 0;
-}
-
-.image-sprites{
-	background-image: url('../images/images-sprites.png');
-	background-repeat: no-repeat;
-}
-
-.day-title {
-	margin: 20px 0;
-}
-
-.day-single-image {
-	float: left;
-	margin-left: 150px;
-	margin-right: 30px;
-	display: block;
-	width: 245px;
-	height: 245px;
-}
-
-.day-subjects {
-	text-align: left;
-	font-size: 24px;
-}
-
-.home {
-	background-image: url('../images/vem-pro-front-background.jpg');
-	background-repeat: no-repeat;
-	background-position: 40% 10%;
-}
-
-	.title-home {
-		font-size: 5.6em;
-		color: #fff;
-		text-shadow: 0 8px 12px #000;
-		text-transform: uppercase;
-		padding-top: 15%;
-	}
-
-	.subtitle-home {
-		font-size: 3em;
-		color: #1abc9c;
-		text-align: right;
-		margin-right: 120px;
-	}
-
-
-.instructor {
-	background-color: #252525;
-}
-	.instructor .image {
-		box-shadow: 3px 5px 0 #1abc9c;
-		border-radius: 50%;
-		margin-bottom: 20px;
-	}
-
-	.instructor .contacts li{
-		display: inline-block;
-		margin: 0 10px;
-	}
-
-	.instructor .contacts-images {
-		width: 70px;
-		height: 70px;
-		display: block;
-	}
-
-	.instructor .facebook{
-		background-position: -31px -310px;
-	} 
-
-	.instructor .linkedin {
-		background-position: -113px -310px;
-	}
-
-	.instructor .mail {
-		background-position: -198px -310px;
-	}
-
-
-.day1 {
-	background-color: #1abc9c;
-}
-
-	.day1 .subject-container {
-	  	width: 100%;
-	    display: -webkit-flex;
-	    display: flex;
-	    align-items: center;
-		justify-content: center;
-	}
-
-	.day1 .subject-container .subject-item {
-		margin: 0 10px;
-		text-align: center;
-	}
-
-	.day1 .subject-container .subject-item .image {
-		width: 245px;
-		height: 245px;
-		display: block;
-	}
-	.day1 .subject-container .subject-item .column1 {
-		background-position: -281px -28px;
-	}
-	.day1 .subject-container .subject-item .column2 {
-		background-position: -555px  -28px;
-	}
-	.day1 .subject-container .subject-item .column3 {
-		background-position: -832px -28px;
-	}
-
-
-.day2 {
-	background-color: #e55126;
-}
-	.day2 .day-single-image {
-		background-position: -1378px -27px;
-	}
-
-
-.day3 {
-	background-color: #0c73b8;
-	text-align: center;
-}
-	.day3 .day-single-image  {
-		background-position: -1103px -27px;
-	}
-
-.day4 {
-	background-color: #e5a228;
-	text-align: center;
-	color: #000000;
-}
-	.day4 .day-single-image {
-		background-position: -1649px -27px;
-	}
-
-
-.participants {
-	padding-top: 80px;
-	color: #1abc9c;
-}
-
-	.participants .persons li{
-		display: inline-block;
-		margin: 0 5px;
-	}	
-
-	.participants .persons li img{
-		border-width: 1px;
-		border-style: solid;
-		border-color: #1abc9c;
-	}
-
-	.participants .persons li figcaption{
-		color: #333333;
-	}
-
+  padding-top: 60px;
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+  color: #fff; }
+  .section .article {
+    display: block;
+    width: 100%;
+    min-height: 300px;
+    padding: 20px 0; }
+  .section .day-title {
+    margin: 20px 0; }
+  .section .day-single-image {
+    float: left;
+    margin-left: 150px;
+    margin-right: 30px;
+    display: block;
+    width: 245px;
+    height: 245px; }
+  .section .day-subjects {
+    text-align: left;
+    font-size: 24px; }
+  .section.home {
+    background-image: url("../images/vem-pro-front-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 40% 10%; }
+    .section.home .title-home {
+      font-size: 5.6em;
+      color: #fff;
+      text-shadow: 0 8px 12px #000;
+      text-transform: uppercase;
+      padding-top: 15%; }
+    .section.home .subtitle-home {
+      font-size: 3em;
+      color: #1abc9c;
+      text-align: right;
+      margin-right: 120px; }
+  .section.instructor {
+    background-color: #252525; }
+    .section.instructor .image {
+      box-shadow: 3px 5px 0 #1abc9c;
+      border-radius: 50%;
+      margin-bottom: 20px; }
+    .section.instructor .contacts li {
+      display: inline-block;
+      margin: 0 10px; }
+    .section.instructor .contacts-images {
+      width: 70px;
+      height: 70px;
+      display: block; }
+    .section.instructor .facebook {
+      background-position: -31px -310px; }
+    .section.instructor .linkedin {
+      background-position: -113px -310px; }
+    .section.instructor .mail {
+      background-position: -198px -310px; }
+  .section.day1 {
+    background-color: #1abc9c; }
+    .section.day1 .subject-container {
+      width: 100%;
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .section.day1 .subject-container .subject-item {
+        margin: 0 10px;
+        text-align: center; }
+        .section.day1 .subject-container .subject-item .image {
+          width: 245px;
+          height: 245px;
+          display: block; }
+          .section.day1 .subject-container .subject-item .image.column1 {
+            background-position: -281px -28px; }
+          .section.day1 .subject-container .subject-item .image.column2 {
+            background-position: -555px  -28px; }
+          .section.day1 .subject-container .subject-item .image.column3 {
+            background-position: -832px -28px; }
+  .section.day2 {
+    background-color: #e55126; }
+    .section.day2 .day-single-image {
+      background-position: -1378px -27px; }
+  .section.day3 {
+    background-color: #0c73b8;
+    text-align: center; }
+    .section.day3 .day-single-image {
+      background-position: -1103px -27px; }
+  .section.day4 {
+    background-color: #e5a228;
+    text-align: center;
+    color: #000000; }
+    .section.day4 .day-single-image {
+      background-position: -1649px -27px; }
+  .section.participants {
+    padding-top: 80px;
+    color: #1abc9c; }
+    .section.participants .persons li {
+      display: inline-block;
+      margin: 0 5px; }
+      .section.participants .persons li figure img {
+        border-width: 1px;
+        border-style: solid;
+        border-color: #1abc9c; }
+      .section.participants .persons li figure figcaption {
+        color: #333333; }
 
 .footer {
-	background-color: #303030;
-	height: 60px;
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	line-height: 60px;
-	text-transform: uppercase;
-}
-
+  background-color: #303030;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  line-height: 60px;
+  text-transform: uppercase; }

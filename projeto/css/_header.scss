@@ -1,0 +1,83 @@
+.header {
+
+	background-color: #303030;
+	height: 60px;
+	line-height: 60px; 
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+
+	.logo {
+		max-width: 60px;
+		vertical-align: middle;
+	}
+
+	.menu {
+
+		float: right;
+		cursor: default;
+	
+		ul{
+
+			li {
+				display: inline-block;
+				margin-right: 5px;
+				margin-left: 5px;
+
+				a {
+					color: #FFF;
+					text-decoration: none;
+					display: block;
+					padding: 0 10px;
+
+					&:hover {
+						background-color: #1abc9c;
+					}
+
+					&.selected-home {
+						background-color: #1abc9c;
+					}
+					
+					&.selected-home{
+						background-color: #1abc9c;
+					}
+
+					&.selected-instructor{
+						background-color: #252525;
+					}
+
+					&.selected-day1{
+						background-color: #1abc9c;
+					}
+
+					&.selected-day2{
+						background-color: #e55126;
+					}
+
+					&.selected-day3{
+						background-color: #0c73b8;
+					}
+
+					&.selected-day4{
+						background-color: #e5a228;
+					}
+
+					&.selected-participants{
+						background-color: white;
+						color: black;
+					}
+
+				}
+
+			}
+		}
+	
+	}	
+
+}
+
+
+
+
+	

@@ -1,37 +1,4 @@
-@import 'teste';
-
-$azulMaluco: #1abc9c;
-
-.header{
-
-	.logo{
-		max-width: 60px;
-		vertical-align: middle;
-	}
-
-	.menu {
-		float: right;
-		
-		ul {
-		
-			li {
-			
-			display: inline-block;
-			
-				a {
-					display: inline-block;
-					color: #ffffff;
-					line-height: 60px;
-					height: 60px;
-					text-decoration: none;
-					padding: 0 10px;
-				
-					&:hover {
-						background-color: $azulMaluco;
-					}
-				}
-			}
-		}
-
-	}
-}
+@import 'commons';
+@import 'header';
+@import 'sections';
+@import 'footer';
