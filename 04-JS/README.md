@@ -6,7 +6,7 @@
 - Boas práticas
 - Testes unitários
 
-Referências bibliográficas:
+### Referências bibliográficas:
 http://jstherightway.org/
 http://tableless.com.br/o-que-nodejs-primeiros-passos-com-node-js/
 https://kangax.github.io/compat-table/es6/

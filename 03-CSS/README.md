@@ -7,7 +7,7 @@
 - Frameworks
 - Ferramentas
 
-Referências bibliográficas:
+### Referências bibliográficas:
 http://tableless.com.br/uma-breve-historia-do-css/
 https://developer.mozilla.org/pt-BR/docs/Web/CSS
 https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_Started/Selectors

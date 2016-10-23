@@ -9,7 +9,7 @@
 - Frameworks
 - Boiler plates
 
-Referências bibliográficas:
+### Referências bibliográficas:
 https://developer.mozilla.org/pt-BR/docs/Web/HTML
 https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list
 http://editorconfig.org/

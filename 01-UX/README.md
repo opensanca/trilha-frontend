@@ -12,7 +12,7 @@
 - Usabilidade
 - Design/Wireframes
 
-Referências bibliográficas:
+### Referências bibliográficas:
 - http://epwg.governoeletronico.gov.br/cartilha-usabilidade#s1.1
 - http://www.uxdesign.blog.br/usabilidade/principios-de-usabilidade-hansen/
 - http://arquiteturadeinformacao.com/
@@ -28,14 +28,14 @@ Referências bibliográficas:
 - https://css-tricks.com/
 - https://developers.google.com/speed/pagespeed/
 
-Videos
+### Videos:
 - Whopper Virgins: https://www.youtube.com/watch?v=P01q1coSjQU
 - Help Desk: https://www.youtube.com/watch?v=jo3rl2kxB4g
 - ROI: https://www.youtube.com/watch?v=O94kYyzqvTc
 - Utilidade: https://vimeo.com/69977212
 - Mr Tappy: https://vimeo.com/37421265
 
-Livros
+### Livros:
 - Não me faça pensar - Steve Krug
 - Simplificando coisas que parecem complicadas - Steve Krug
 - http://www.designculture.com.br/10-livros-que-o-designer-precisa-ler-em-2016/
