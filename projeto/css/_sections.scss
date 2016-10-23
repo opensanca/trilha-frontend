@@ -37,9 +37,9 @@
 		background-position: 40% 10%;
 		
 		.title-home {
+			@include text-shadow(0, 8px, 12px, #000);
 			font-size: 5.6em;
 			color: #fff;
-			text-shadow: 0 8px 12px #000;
 			text-transform: uppercase;
 			padding-top: 15%;
 		}

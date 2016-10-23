@@ -8,8 +8,16 @@ html, body {
   height: 100%; }
 
 .container {
-  width: 960px;
+  width: 320px;
   margin: 0 auto; }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 768px; } }
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 960px; } }
 
 .image-sprites {
   background-image: url("../images/images-sprites.png");
@@ -86,9 +94,9 @@ html, body {
     background-repeat: no-repeat;
     background-position: 40% 10%; }
     .section.home .title-home {
+      text-shadow: 0 8px 12px #000;
       font-size: 5.6em;
       color: #fff;
-      text-shadow: 0 8px 12px #000;
       text-transform: uppercase;
       padding-top: 15%; }
     .section.home .subtitle-home {

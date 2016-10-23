@@ -9,10 +9,26 @@ html, body {
 	height:100%;
 }
 
+
 .container{
-	width: 960px;
+	width: $smartphoneBreakpoint;
 	margin: 0 auto;
 }
+
+
+@media screen and (min-width: $tabletBreakpoint) and (max-width: $desktopBreakpoint){
+	.container{
+		width: $tabletBreakpoint;
+	}
+
+}
+@media screen and (min-width: $desktopBreakpoint){
+	.container{
+		width: 960px;
+	}
+
+}
+
 
 .image-sprites{
 	background-image: url('../images/images-sprites.png');

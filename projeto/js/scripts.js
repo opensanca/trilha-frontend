@@ -1,9 +1,11 @@
 //Vanilla
-
 (function createEventsListener() {
-    var links = document.querySelectorAll(".menu a")
 
-    for(var i=0; i < links.length;i++) {
+    var links = document.querySelectorAll(".menu a");
+    var linksLength = links.length;
+
+    for(var i=0; i < linksLength; i++) {
+
         links[i].addEventListener("click", function(){
 
             removeAllLiClass();
@@ -48,19 +50,18 @@ function removeAllLiClass(){
 }
 
 
-/*//jquery
-$('.menu a').click(function(){
-
-    $(".menu a.selected").removeClass("selected");
-
+//jquery
+/*$('.menu a').click(function(){
 
     var target = $(this).attr('href');
     target = target.substring(2);
+ 
+    $(".menu a").removeClass();
 
     $(this).addClass('selected-'+target);
 
     $('html,body').animate({
-      scrollTop: $('.'+target).offset().top
+        scrollTop: $('.'+target).offset().top
     }, 1000);
 
 });
